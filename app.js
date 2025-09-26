@@ -1,0 +1,1 @@
+console.log('Die Anwendung läuft!');
