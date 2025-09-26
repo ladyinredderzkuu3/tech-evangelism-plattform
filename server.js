@@ -9,9 +9,9 @@ app.use(cors());
 app.use(bodyParser.json());
 
 app.get('/', (req, res) => {
-  res.send('Willkommen zur Tech Evangelism Plattform!');
+  res.send('Welcome to the Tech Evangelism Platform!');
 });
 
 app.listen(PORT, () => {
-  console.log(`Server läuft auf http://localhost:${PORT}`);
+  console.log(`Server is running at http://localhost:${PORT}`);
 });
