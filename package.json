@@ -1,0 +1,15 @@
+{
+  "name": "tech-evangelism-plattform",
+  "version": "1.0.0",
+  "description": "Eine Plattform zur Förderung von Technologie und Bildung.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo 'Keine Tests angegeben' && exit 0"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5"
+  }
+}
